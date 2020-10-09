@@ -21,8 +21,8 @@ Examples of message filters that can be used for deleting or moving a set of mes
 See here for more examples of message selectors: https://docs.oracle.com/javaee/6/api/javax/jms/Message.html
 
 ## Manual usage:
-1. Execute: wlst manageJmsQueues.py -loadProperties manageJmsQueues_[ENV].properties
-2. Select action 0-9 manually
+1. Execute: wlst manageJmsQueues.py
+2. Select action 0-8
 
 ## Automatic/silent usage:
 1. Execute: wlst manageJMSQueues.py [operation] [env] [par1, par2, ..., parn]
